@@ -1,2 +1,11 @@
 (defun filter_out_the (list)
+	(cond
+		((null list) nil)
+		((equal 'the (first list))
+			(filter_out_the (rest list))
+		)
+		(T (cons (first list)
+			(filter_out_the (rest list)))
+		)
+	)
 )
