@@ -1,4 +1,5 @@
 ; Nick Petty
+; npetty2014@fau.edu
 ; CLISP Asignment
 ; The input list is recursively iterated over, and a new list is output.
 ; The new list is made of all list elements excluding 'the.'
